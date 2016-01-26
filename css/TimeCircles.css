@@ -1,0 +1,54 @@
+/**
+ *	This element is created inside your target element
+ *	It is used so that your own element will not need to be altered
+ **/
+ canvas{
+    background:#222;
+    border:3px solid #fff;
+ }
+ #DateCountdown{
+ }
+.time_circles {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin-top:-20px;
+    position: fixed;
+    z-index:10;
+}
+
+/**
+ *  This is all the elements used to house all text used
+ * in time circles
+ **/
+.time_circles > div {
+    position: absolute;
+    text-align: center;
+}
+
+/**
+ *	Titles (Days, Hours, etc)
+ **/
+.time_circles > div > h4 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.6rem !important;
+    text-align: center;
+    text-transform: uppercase;
+    color:#fff;
+    font-family: 'Special Elite', sans-serif;
+}
+
+/**
+ *	Time numbers, ie: 12
+ **/
+.time_circles > div > span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Special Elite', Arial;
+    font-size: 3rem !important;
+    margin-top: 0.6em;
+    font-weight: bold;
+    color:gold;
+}

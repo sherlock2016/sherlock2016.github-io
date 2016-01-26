@@ -1,0 +1,55 @@
+<style>
+.level-btns li{
+	width:6.5%;
+}
+</style>
+<div ng-controller="questionsController" class="questionsContainer">
+	<div class="col-md-12 col-xs-12">
+		<ul class="level-btns" style="margin-top:10px">
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">1</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">2</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">3</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">4</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">5</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">6</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">7</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">8</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">9</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">10</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">11</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">12</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">13</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">14</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">15</a></li>
+		</ul>
+		<div class="col-md-3">
+    <div id="DateCountdown" style="margin-top:80px" data-date="2015-01-01 00:00:00" style="width: 100%;"></div>
+  </div>
+
+		<div class="col-md-6">
+			<div class="desc" style="margin-top:30px">
+				<h4 class="bold">QUESTION</h4>
+				<p>Here's the really long, super duper long question. It could be longer than this.Here's the really long, super duper long question. It could be longer than this.</p>
+				<p><input type="text" id="ans"/><a href="" id="submit-ans">SUBMIT</a></p>
+			</div>
+		</div>
+		<div class="col-md-6 col-md-push-3">
+			<div class="desc col-md-6" style="margin-top:5px;border-right:3px dashed rgba(255,255,255,0.5)">
+				<span class="gold bold clue">CLUE COMES HERE</span>
+			</div>
+				<div class="desc col-md-6" style="margin-top:5px">
+				<span class="gold bold clue">ENCRYPTED WORD</span>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="col-md-6 col-md-push-3" style="text-align:center;margin-top:5px">
+				<div class="desc">
+					<h4><i class="fa fa-arrow-down"></i> DECRYPT WORD WITH CLUE</h4><input type="text" id="ans" />
+					<a id="submit-ans" href="#/success">SUBMIT</a>
+					<br/>
+					<br/>
+					<a class="my-btn" id="next-level" href="#/round3"><i class="fa fa-angle-left gold"></i><i class="fa fa-angle-left gold"></i> BACK TO THE CLUE</a>
+				</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,48 @@
+<style>
+.level-btns li{
+	width:6.5%;
+}
+</style>
+<div ng-controller="questionsController" class="questionsContainer">
+	<div class="col-md-12 col-md-push-4 col-xs-12">
+		<ul class="level-btns" style="margin-top:10px">
+			<li ng-click=""><a class="level-btn-gold" href="">1</a></li>
+			<li ng-click=""><a class="level-btn-gold" href="">2</a></li>
+			<li ng-click=""><a class="level-btn-gold level-btn-disabled" href="">3</a></li>
+			<li ng-click=""><a class="level-btn-gold" href="">4</a></li>
+		</ul>
+	</div>
+	<div class="col-md-12 col-xs-12">
+		<ul class="level-btns" style="margin-top:60px">
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">1</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">2</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">3</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">4</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">5</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">6</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">7</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">8</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">9</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">10</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">11</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">12</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">13</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">14</a></li>
+			<li ng-click=""><a class="level-btn level-btn-sm" href="">15</a></li>
+		</ul>
+
+  <div class="col-md-3">
+    <div id="DateCountdown" style="margin-top:80px" data-date="2015-01-01 00:00:00" style="width: 100%;"></div>
+  </div>
+		<div class="col-md-6 ">
+			<div class="desc" style="margin-top:50px">
+				<h4 class="bold">QUESTION</h4>
+				<p>Here's the really long, super duper long question. It could be longer than this.Here's the really long, super duper long question. It could be longer than this.</p>
+				<p><input type="text" id="ans"/><a href="" id="submit-ans">SUBMIT</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-12" style="text-align:center;margin-top:30px">
+			<a class="my-btn" id="next-level" href="#/round3">MOVE ON TO LEVEL 3</a>
+	</div>
+</div>
